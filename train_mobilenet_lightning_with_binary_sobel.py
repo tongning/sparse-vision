@@ -172,8 +172,9 @@ transformations = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
     GetEdges(),
 ])
-train_set = datasets.ImageFolder("tiny-imagenet-200/train", transform = transformations)
-val_set = datasets.ImageFolder("tiny-imagenet-200/val_organized", transform = transformations)
+data_dir = '../tiny-imagenet-200'
+train_set = datasets.ImageFolder(os.path.join(data_dir, 'train'), transform = transformations)
+val_set = datasets.ImageFolder(os.path.join(data_dir, 'val_organized'), transform = transformations)
 
 train_loader = torch.utils.data.DataLoader(train_set, batch_size=32, shuffle=True, num_workers=8)
 val_loader = torch.utils.data.DataLoader(val_set, batch_size =32, shuffle=False, num_workers=8)
