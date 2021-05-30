@@ -36,6 +36,16 @@ class GetMaskedEdges(object):
     def __repr__(self):
         return self.__class__.__name__+'()'
 
+class GetEdgesWithColor(object):
+    def __call__(self, pic):
+        edges = kornia.sobel(pic.unsqueeze(0)).squeeze()
+        mask = edges > 0.25
+        filtered = pic * mask.int().float()
+        return filtered
+    def __repr__(self):
+        return self.__class__.__name__+'()'
+
+
 
 class TinyimagenetModule(pl.LightningModule):
     def __init__(self, model_arch, debug=False):
@@ -157,6 +167,14 @@ elif args.transform == 'maskededges':
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
         GetMaskedEdges(),
+    ])
+elif args.transform == 'edgeswithcolor':
+    transformations = transforms.Compose([
+        transforms.Resize(224),
+        #transforms.CenterCrop(224),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        GetEdgesWithColor(),
     ])
 else:
     print("Using null transformation")
