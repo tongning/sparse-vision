@@ -38,9 +38,14 @@ class GetMaskedEdges(object):
 
 class GetEdgesWithColor(object):
     def __call__(self, pic):
+        id = randint(0,1000)
+        save_image(pic, f'/tmp/sample{str(id)}.png')
         edges = kornia.sobel(pic.unsqueeze(0)).squeeze()
-        mask = edges > 0.25
+        avg_edge = torch.mean(edges, dim=0)
+        mask = avg_edge > 0.20
+        mask = torch.stack((mask,mask,mask))
         filtered = pic * mask.int().float()
+        save_image(filtered, f'/tmp/sample{str(id)}_filtered.png')
         return filtered
     def __repr__(self):
         return self.__class__.__name__+'()'
@@ -68,7 +73,8 @@ class TinyimagenetModule(pl.LightningModule):
     def training_step(self, batch, batch_idx):
         inputs, labels = batch  
         if self.debug:
-            save_image(inputs[0], '/tmp/sample_filt.png')
+            pass
+            #save_image(inputs[0], '/tmp/sample_filt.png')
             #exit(0)
         output = nn.functional.log_softmax(self.model.forward(inputs))
         loss = self.criterion(output, labels)
