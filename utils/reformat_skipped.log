@@ -1,0 +1,281 @@
+(cs230) anthony@pop-os:~/Documents/cs230/utils$ python transform_image_folder.py
+[ WARN:0] global /tmp/pip-req-build-rcdoave0/opencv_contrib/modules/xfeatures2d/misc/python/shadow_sift.hpp (13) SIFT_create DEPRECATED: cv.xfeatures2d.SIFT_create() is deprecated due SIFT tranfer to the main repository. https://github.com/opencv/opencv/issues/16736
+0it [00:00, ?it/s]transform_image_folder.py:31: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  keypoints_mask[[*keypoints_list.T]] = 1
+6047it [00:08, 697.34it/s]Skipping ../../tiny-imagenet-200-sift/train/n02129165/images/n02129165_204.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 1
+6890it [00:10, 700.26it/s]Skipping ../../tiny-imagenet-200-sift/train/n02999410/images/n02999410_258.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 2
+Skipping ../../tiny-imagenet-200-sift/train/n02999410/images/n02999410_385.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 3
+9496it [00:13, 695.64it/s]Skipping ../../tiny-imagenet-200-sift/train/n01784675/images/n01784675_168.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 4
+9706it [00:14, 684.69it/s]Skipping ../../tiny-imagenet-200-sift/train/n01784675/images/n01784675_225.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 5
+9775it [00:14, 650.97it/s]Skipping ../../tiny-imagenet-200-sift/train/n01784675/images/n01784675_34.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 6
+10208it [00:14, 707.69it/s]Skipping ../../tiny-imagenet-200-sift/train/n02814860/images/n02814860_170.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 7
+10354it [00:15, 677.08it/s]Skipping ../../tiny-imagenet-200-sift/train/n02814860/images/n02814860_12.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 8
+11657it [00:16, 707.61it/s]Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_268.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 9
+Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_267.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 10
+Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_0.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 11
+Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_282.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 12
+11728it [00:17, 697.46it/s]Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_471.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 13
+12014it [00:17, 699.78it/s]Skipping ../../tiny-imagenet-200-sift/train/n03976657/images/n03976657_244.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 14
+13834it [00:20, 705.24it/s]Skipping ../../tiny-imagenet-200-sift/train/n02808440/images/n02808440_225.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 15
+14903it [00:21, 671.68it/s]Skipping ../../tiny-imagenet-200-sift/train/n02892201/images/n02892201_327.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 16
+16016it [00:23, 703.46it/s]Skipping ../../tiny-imagenet-200-sift/train/n03637318/images/n03637318_190.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 17
+16511it [00:24, 679.85it/s]Skipping ../../tiny-imagenet-200-sift/train/n03930313/images/n03930313_371.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 18
+17641it [00:25, 696.91it/s]Skipping ../../tiny-imagenet-200-sift/train/n02906734/images/n02906734_454.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 19
+20163it [00:29, 687.02it/s]Skipping ../../tiny-imagenet-200-sift/train/n09246464/images/n09246464_215.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 20
+24372it [00:35, 699.25it/s]Skipping ../../tiny-imagenet-200-sift/train/n03404251/images/n03404251_83.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 21
+25224it [00:36, 711.87it/s]Skipping ../../tiny-imagenet-200-sift/train/n04376876/images/n04376876_253.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 22
+25370it [00:36, 718.71it/s]Skipping ../../tiny-imagenet-200-sift/train/n04376876/images/n04376876_264.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 23
+28868it [00:42, 683.68it/s]Skipping ../../tiny-imagenet-200-sift/train/n01443537/images/n01443537_285.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 24
+29361it [00:42, 683.27it/s]Skipping ../../tiny-imagenet-200-sift/train/n02788148/images/n02788148_214.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 25
+31261it [00:45, 707.58it/s]Skipping ../../tiny-imagenet-200-sift/train/n03388043/images/n03388043_307.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 26
+Skipping ../../tiny-imagenet-200-sift/train/n03388043/images/n03388043_434.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 27
+34055it [00:49, 690.46it/s]Skipping ../../tiny-imagenet-200-sift/train/n03838899/images/n03838899_75.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 28
+35268it [00:51, 659.94it/s]Skipping ../../tiny-imagenet-200-sift/train/n07753592/images/n07753592_52.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 29
+35626it [00:52, 704.68it/s]Skipping ../../tiny-imagenet-200-sift/train/n07753592/images/n07753592_5.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 30
+35766it [00:52, 655.59it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_117.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 31
+35832it [00:52, 651.24it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_216.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 32
+35898it [00:52, 638.60it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_96.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 33
+Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_255.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 34
+35974it [00:52, 671.49it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_145.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 35
+36042it [00:52, 670.63it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_193.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 36
+Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_4.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 37
+Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_62.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 38
+36112it [00:52, 678.82it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_275.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 39
+Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_416.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 40
+36187it [00:52, 697.09it/s]Skipping ../../tiny-imagenet-200-sift/train/n01910747/images/n01910747_128.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 41
+37439it [00:54, 703.45it/s]Skipping ../../tiny-imagenet-200-sift/train/n03837869/images/n03837869_60.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 42
+37510it [00:54, 696.68it/s]Skipping ../../tiny-imagenet-200-sift/train/n03837869/images/n03837869_486.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 43
+42290it [01:01, 664.43it/s]Skipping ../../tiny-imagenet-200-sift/train/n09428293/images/n09428293_379.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 44
+42428it [01:02, 659.13it/s]Skipping ../../tiny-imagenet-200-sift/train/n09428293/images/n09428293_251.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 45
+Skipping ../../tiny-imagenet-200-sift/train/n09428293/images/n09428293_76.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 46
+42718it [01:02, 705.78it/s]Skipping ../../tiny-imagenet-200-sift/train/n09428293/images/n09428293_399.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 47
+43263it [01:03, 651.15it/s]Skipping ../../tiny-imagenet-200-sift/train/n03355925/images/n03355925_80.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 48
+Skipping ../../tiny-imagenet-200-sift/train/n03355925/images/n03355925_171.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 49
+43473it [01:03, 664.60it/s]Skipping ../../tiny-imagenet-200-sift/train/n03355925/images/n03355925_181.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 50
+43540it [01:03, 661.89it/s]Skipping ../../tiny-imagenet-200-sift/train/n03355925/images/n03355925_13.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 51
+Skipping ../../tiny-imagenet-200-sift/train/n03355925/images/n03355925_292.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 52
+43974it [01:04, 706.16it/s]Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_410.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 53
+Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_68.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 54
+44045it [01:04, 698.60it/s]Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_225.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 55
+Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_117.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 56
+Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_257.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 57
+44115it [01:04, 683.48it/s]Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_342.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 58
+Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_43.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 59
+44185it [01:04, 687.92it/s]Skipping ../../tiny-imagenet-200-sift/train/n04275548/images/n04275548_459.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 60
+44679it [01:05, 687.47it/s]Skipping ../../tiny-imagenet-200-sift/train/n03983396/images/n03983396_251.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 61
+47348it [01:09, 667.49it/s]Skipping ../../tiny-imagenet-200-sift/train/n09256479/images/n09256479_451.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 62
+48369it [01:10, 669.25it/s]Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_220.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 63
+48436it [01:11, 660.11it/s]Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_257.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 64
+48507it [01:11, 673.20it/s]Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_41.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 65
+48647it [01:11, 685.48it/s]Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_322.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 66
+Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_498.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 67
+48717it [01:11, 689.42it/s]Skipping ../../tiny-imagenet-200-sift/train/n02231487/images/n02231487_106.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 68
+49765it [01:13, 676.99it/s]Skipping ../../tiny-imagenet-200-sift/train/n03670208/images/n03670208_99.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 69
+50040it [01:13, 680.75it/s]Skipping ../../tiny-imagenet-200-sift/train/n03670208/images/n03670208_332.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 70
+50322it [01:13, 687.48it/s]Skipping ../../tiny-imagenet-200-sift/train/n02058221/images/n02058221_283.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 71
+50527it [01:14, 661.17it/s]Skipping ../../tiny-imagenet-200-sift/train/n02058221/images/n02058221_219.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 72
+51577it [01:15, 681.59it/s]Skipping ../../tiny-imagenet-200-sift/train/n02002724/images/n02002724_443.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 73
+52330it [01:16, 659.81it/s]Skipping ../../tiny-imagenet-200-sift/train/n03126707/images/n03126707_321.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 74
+Skipping ../../tiny-imagenet-200-sift/train/n03126707/images/n03126707_355.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 75
+52399it [01:16, 667.24it/s]Skipping ../../tiny-imagenet-200-sift/train/n03126707/images/n03126707_403.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 76
+52744it [01:17, 660.97it/s]Skipping ../../tiny-imagenet-200-sift/train/n03126707/images/n03126707_127.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 77
+56703it [01:23, 651.08it/s]Skipping ../../tiny-imagenet-200-sift/train/n02233338/images/n02233338_349.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 78
+57870it [01:24, 661.47it/s]Skipping ../../tiny-imagenet-200-sift/train/n02815834/images/n02815834_438.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 79
+58003it [01:25, 643.25it/s]Skipping ../../tiny-imagenet-200-sift/train/n02815834/images/n02815834_396.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 80
+58137it [01:25, 637.68it/s]Skipping ../../tiny-imagenet-200-sift/train/n02815834/images/n02815834_39.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 81
+58274it [01:25, 660.02it/s]Skipping ../../tiny-imagenet-200-sift/train/n02815834/images/n02815834_467.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 82
+59909it [01:28, 682.66it/s]Skipping ../../tiny-imagenet-200-sift/train/n03026506/images/n03026506_132.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 83
+62606it [01:32, 673.88it/s]Skipping ../../tiny-imagenet-200-sift/train/n03937543/images/n03937543_93.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 84
+63957it [01:34, 674.27it/s]Skipping ../../tiny-imagenet-200-sift/train/n04507155/images/n04507155_339.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 85
+66377it [01:37, 639.51it/s]Skipping ../../tiny-imagenet-200-sift/train/n09332890/images/n09332890_168.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 86
+69548it [01:42, 673.91it/s]Skipping ../../tiny-imagenet-200-sift/train/n03085013/images/n03085013_185.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 87
+70026it [01:43, 681.44it/s]Skipping ../../tiny-imagenet-200-sift/train/n04008634/images/n04008634_311.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 88
+70095it [01:43, 676.31it/s]Skipping ../../tiny-imagenet-200-sift/train/n04008634/images/n04008634_232.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 89
+71140it [01:44, 656.41it/s]Skipping ../../tiny-imagenet-200-sift/train/n01644900/images/n01644900_187.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 90
+71473it [01:45, 633.96it/s]Skipping ../../tiny-imagenet-200-sift/train/n04366367/images/n04366367_20.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 91
+72159it [01:46, 684.00it/s]Skipping ../../tiny-imagenet-200-sift/train/n04251144/images/n04251144_38.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 92
+74273it [01:49, 681.00it/s]Skipping ../../tiny-imagenet-200-sift/train/n02423022/images/n02423022_236.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 93
+77455it [01:54, 690.05it/s]Skipping ../../tiny-imagenet-200-sift/train/n07747607/images/n07747607_262.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 94
+Skipping ../../tiny-imagenet-200-sift/train/n07747607/images/n07747607_33.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 95
+77668it [01:54, 697.24it/s]Skipping ../../tiny-imagenet-200-sift/train/n07747607/images/n07747607_295.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 96
+78094it [01:55, 702.49it/s]Skipping ../../tiny-imagenet-200-sift/train/n03804744/images/n03804744_144.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 97
+78165it [01:55, 684.43it/s]Skipping ../../tiny-imagenet-200-sift/train/n03804744/images/n03804744_447.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 98
+Skipping ../../tiny-imagenet-200-sift/train/n03804744/images/n03804744_329.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 99
+78234it [01:55, 675.54it/s]Skipping ../../tiny-imagenet-200-sift/train/n03804744/images/n03804744_497.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 100
+79327it [01:57, 653.59it/s]Skipping ../../tiny-imagenet-200-sift/train/n02795169/images/n02795169_196.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 101
+79468it [01:57, 677.59it/s]Skipping ../../tiny-imagenet-200-sift/train/n02236044/images/n02236044_492.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 102
+86039it [02:07, 719.87it/s]Skipping ../../tiny-imagenet-200-sift/train/n01698640/images/n01698640_125.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 103
+87943it [02:10, 673.42it/s]Skipping ../../tiny-imagenet-200-sift/train/n04023962/images/n04023962_115.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 104
+88011it [02:10, 647.78it/s]Skipping ../../tiny-imagenet-200-sift/train/n04070727/images/n04070727_412.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 105
+88360it [02:10, 668.54it/s]Skipping ../../tiny-imagenet-200-sift/train/n04070727/images/n04070727_144.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 106
+89541it [02:12, 708.16it/s]Skipping ../../tiny-imagenet-200-sift/train/n07749582/images/n07749582_293.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 107
+89612it [02:12, 707.73it/s]Skipping ../../tiny-imagenet-200-sift/train/n07749582/images/n07749582_39.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 108
+89828it [02:12, 706.50it/s]Skipping ../../tiny-imagenet-200-sift/train/n07749582/images/n07749582_48.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 109
+89899it [02:13, 698.79it/s]Skipping ../../tiny-imagenet-200-sift/train/n07749582/images/n07749582_382.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 110
+96551it [02:23, 655.12it/s]Skipping ../../tiny-imagenet-200-sift/train/n04311004/images/n04311004_451.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 111
+97465it [02:24, 645.75it/s]Skipping ../../tiny-imagenet-200-sift/train/n02190166/images/n02190166_92.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 112
+100858it [02:29, 686.35it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_6293.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 113
+102636it [02:32, 663.54it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_3377.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 114
+103869it [02:34, 682.22it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_9811.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 115
+104630it [02:35, 683.39it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_3388.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 116
+106019it [02:37, 674.96it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_607.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 117
+106367it [02:37, 678.29it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_7881.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 118
+107413it [02:39, 668.22it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_5113.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 119
+107480it [02:39, 655.25it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_7712.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 120
+108092it [02:40, 645.95it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_4347.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 121
+108364it [02:40, 660.38it/s]Skipping ../../tiny-imagenet-200-sift/val/images/val_9072.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 122
+111460it [02:45, 677.31it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n02999410/val_7712.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 123
+113317it [02:47, 682.07it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n03980874/val_5113.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 124
+113742it [02:48, 685.62it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n02788148/val_3377.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 125
+114440it [02:49, 695.04it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n01910747/val_7881.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 126
+115148it [02:50, 697.23it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n03355925/val_9811.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 127
+115218it [02:50, 694.68it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n03355925/val_607.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 128
+Skipping ../../tiny-imagenet-200-sift/val_organized/n04275548/val_4347.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 129
+118912it [02:56, 683.50it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n04265275/val_9072.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 130
+Skipping ../../tiny-imagenet-200-sift/val_organized/n03250847/val_6293.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 131
+119751it [02:57, 678.51it/s]Skipping ../../tiny-imagenet-200-sift/val_organized/n04070727/val_3388.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 132
+124087it [03:03, 663.43it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_79.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 133
+128188it [03:10, 672.24it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_214.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 134
+128536it [03:10, 635.50it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_7980.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 135
+129436it [03:12, 670.73it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_4909.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 136
+130116it [03:13, 676.54it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_9684.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 137
+130184it [03:13, 666.36it/s]Skipping ../../tiny-imagenet-200-sift/test/images/test_344.JPEG because of error 'tuple' object has no attribute 'astype'
+Total skipped: 138
+131011it [03:14, 673.90it/s]
