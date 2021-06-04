@@ -1,5 +1,6 @@
 import torch
 from typing import List
+# https://discuss.pytorch.org/t/top-k-error-calculation/48815
 def accuracy(output: torch.Tensor, target: torch.Tensor, topk=(1,5)) -> List[torch.FloatTensor]:
     """
     Computes the accuracy over the k top predictions for the specified values of k
