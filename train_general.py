@@ -17,6 +17,14 @@ from random import randint
 import argparse
 from util import accuracy
 
+class GetSobelEdges(object):
+    def __call__(self, pic):
+        filtered = kornia.sobel(pic.unsqueeze(0)).squeeze()
+
+        return filtered
+    def __repr__(self):
+        return self.__class__.__name__+'()'
+
 class GetBinaryEdges(object):
     def __call__(self, pic):
         id = randint(0,1000)
@@ -173,6 +181,14 @@ elif args.transform == 'maskededges':
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
         GetMaskedEdges(),
+    ])
+elif args.transform == 'sobel':
+    transformations = transforms.Compose([
+        transforms.Resize(224),
+        #transforms.CenterCrop(224),
+        transforms.ToTensor(),
+        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
+        GetSobelEdges(),
     ])
 elif args.transform == 'edgeswithcolor':
     transformations = transforms.Compose([
