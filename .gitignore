@@ -3,3 +3,4 @@ tiny-imagenet-200/
 wandb/
 lightning_logs/
 __pycache__/
+sample_imgs/

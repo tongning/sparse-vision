@@ -11,7 +11,7 @@ from skimage.feature import hog
 from skimage import data, exposure
 np.set_printoptions(threshold=sys.maxsize)
 arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument('--folderpath', action='store', type=str, default="../../tiny-imagenet-200-hog")
+arg_parser.add_argument('--folderpath', action='store', type=str, default="../../tiny-imagenet-200-sift")
 arg_parser.add_argument('--transform', action='store', type=str, required=True)
 args = arg_parser.parse_args()
 
@@ -26,6 +26,7 @@ for filename in tqdm(glob.iglob(os.path.join(root_folder, '**'), recursive=True)
                 if args.transform == 'sift':
                     id = randint(0,1000)
                     cv_img = cv2.imread(filename)
+                    cv_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
                     gray = cv2.cvtColor(cv_img, cv2.COLOR_BGR2GRAY)
                     keypoints, descriptors = sift.detectAndCompute(cv_img, None)
                     keypoints_list = cv2.KeyPoint_convert(keypoints).astype(int)
